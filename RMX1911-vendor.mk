@@ -172,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/realme/RMX1911/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 
-
 PRODUCT_PACKAGES += \
     libantradio \
     SoterService \
