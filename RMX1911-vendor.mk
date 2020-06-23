@@ -443,70 +443,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/realme/RMX1911/proprietary/vendor/etc/DxHDCP.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/DxHDCP.cfg \
     vendor/realme/RMX1911/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
-    vendor/realme/RMX1911/proprietary/vendor/etc/SVIConfig_19021.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig_19021.xml \
-    vendor/realme/RMX1911/proprietary/vendor/etc/SVIConfig_19171.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig_19171.xml \
-    vendor/realme/RMX1911/proprietary/vendor/etc/SVIConfig_19375.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig_19375.xml \
     vendor/realme/RMX1911/proprietary/vendor/etc/SVIConfig_19631.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig_19631.xml \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19021/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19021/workspaceFile.qwsp \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19026/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19026/workspaceFile.qwsp \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19321/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19321/workspaceFile.qwsp \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19328/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19328/workspaceFile.qwsp \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19375/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19375/workspaceFile.qwsp \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Bluetooth_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Codec_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/General_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Global_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Handset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Hdmi_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Headset_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/Speaker_cal.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/adsp_avs_config.acdb \
-    vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19376/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19376/workspaceFile.qwsp \
     vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19631/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/Bluetooth_cal.acdb \
     vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19631/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/Codec_cal.acdb \
     vendor/realme/RMX1911/proprietary/vendor/etc/acdbdata/19631/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/General_cal.acdb \
@@ -889,17 +826,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/vendor/euclid/engineering.aging.img:$(TARGET_COPY_OUT_VENDOR)/euclid/engineering.aging.img \
     vendor/realme/RMX1911/proprietary/vendor/euclid/engineering.preversion.img:$(TARGET_COPY_OUT_VENDOR)/euclid/engineering.preversion.img \
     vendor/realme/RMX1911/proprietary/vendor/euclid/product.img:$(TARGET_COPY_OUT_VENDOR)/euclid/product.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19630.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19630.img \
     vendor/realme/RMX1911/proprietary/vendor/euclid/version.19631.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19631.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19632.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19632.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19641.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19641.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19642.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19642.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19647.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19647.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19648.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19648.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19675.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19675.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19676.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19676.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19743.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19743.img \
-    vendor/realme/RMX1911/proprietary/vendor/euclid/version.19744.img:$(TARGET_COPY_OUT_VENDOR)/euclid/version.19744.img \
     vendor/realme/RMX1911/proprietary/vendor/euclid_build.prop:$(TARGET_COPY_OUT_VENDOR)/euclid_build.prop \
     vendor/realme/RMX1911/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/realme/RMX1911/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
