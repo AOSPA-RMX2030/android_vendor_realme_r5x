@@ -173,7 +173,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     WfdService \
     QtiTelephonyService \
-    atfwd \
+    TimeService \
     uceShimService \
     dpmserviceapp \
     ims \
