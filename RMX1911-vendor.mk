@@ -16,7 +16,7 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1911
-    
+
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/realme/RMX1911/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     WfdService \
+    libantradio \
     QtiTelephonyService \
     TimeService \
     uceShimService \
