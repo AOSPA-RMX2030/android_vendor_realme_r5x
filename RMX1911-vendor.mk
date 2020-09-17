@@ -1,4 +1,5 @@
 # Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -171,9 +172,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/realme/RMX1911/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 
+
 PRODUCT_PACKAGES += \
+    libantradio \
+    SoterService \
     HotwordEnrollmentOKGoogleHEXAGON \
     WfdService \
+    PowerOffAlarm \
     QtiTelephonyService \
     atfwd \
     uceShimService \
