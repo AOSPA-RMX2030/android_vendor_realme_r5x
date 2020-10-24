@@ -19,6 +19,35 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libantradio",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libantradio.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libantradio.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+android_app_import {
+	name: "SoterService",
+	owner: "realme",
+	apk: "proprietary/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "realme",
